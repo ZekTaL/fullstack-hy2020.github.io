@@ -297,7 +297,7 @@ const Notes = ({notes}) => (
                 <Link to={`/notes/${note.id}`}>{note.content}</Link>
               </TableCell>
               <TableCell>
-                {note.name}
+                {note.user}
               </TableCell>
             </TableRow>
           ))}
